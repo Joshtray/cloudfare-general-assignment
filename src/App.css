@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  padding: 70px;
+}
+.App .create-post-disabled {
+  display: none;
+}
+
+.App button:hover {
+  background-color: rgb(212, 212, 212);
+  transition: 0.2s ease;
+}
+.App .new-post {
+  border: solid rgb(161, 161, 161) 1px;
+  border-radius: 30px;
+  width: 300px;
+  background-color: whitesmoke;
+  height: 40px;
+  width: 400px;
+  font-family: fontin;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.App .create-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.App .create-post .username {
+  width: 600px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: fontin;
+}
+.App .create-post .username:focus {
+  background-color: whitesmoke;
+  transition: 0.2s ease;
+}
+.App .create-post .title:focus {
+  background-color: whitesmoke;
+  transition: 0.2s ease;
+}
+.App .create-post .content:focus {
+  background-color: whitesmoke;
+  transition: 0.2s ease;
+}
+
+.App .create-post .title {
+  width: 600px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: fontin;
+}
+
+.App .create-post .content {
+  height: 150px;
+  width: 600px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-family: fontin;
+}
+
+.App .create-post .post-action {
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 150px;
+  font-family: fontin;
+}

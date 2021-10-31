@@ -1,0 +1,14 @@
+@font-face {
+  font-family: poppins;
+  src: url('./components/fonts/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: fontin;
+  src: url('./components/fonts/Fontin\ Sans\ Regular.otf');
+}
+body {
+  margin: 0;
+  font-family: fontin;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

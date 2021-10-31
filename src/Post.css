@@ -1,0 +1,25 @@
+.post {
+    border: dotted black 1px;
+    border-radius: 30px;
+    margin: 40px;
+    box-shadow: slategrey 2px 2px 2px 2px;
+    text-align: left;
+    padding-left: 50px;
+}
+.post .post-description .title {
+    font-size: 17px;
+    margin-bottom: 2px;
+    text-transform: capitalize;
+}
+.post .post-description .username {
+    margin-top: 0px;
+    font-size: 12px;
+}
+.post .post-content .content {
+    font-size: 15px;
+}
+.post .created-at {
+    text-align: right;
+    margin-right: 40px;
+    font-size: 12px;
+}
